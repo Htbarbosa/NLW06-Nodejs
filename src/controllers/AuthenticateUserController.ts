@@ -10,7 +10,7 @@ class AuthenticateUserController {
             email,
             password
         });
-        return response.json(token).send();
+        return response.json(token);
     }
 }
 export { AuthenticateUserController }
